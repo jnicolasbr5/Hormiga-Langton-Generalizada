@@ -1,0 +1,1 @@
+/usr/bin/g++-14 CMakeFiles/langton2.dir/src/main.cpp.o CMakeFiles/langton2.dir/src/tape.cpp.o CMakeFiles/langton2.dir/src/simulator.cpp.o CMakeFiles/langton2.dir/src/ant.cpp.o -o langton2 
