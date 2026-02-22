@@ -2,17 +2,16 @@
 
 #include <fstream>
 #include <iostream>
-#include <ant.hpp>
-#include <tape.hpp>
+#include "ant.hpp"
+#include "tape.hpp"
 
 
 struct Fichero {
 	unsigned cinta_size;
 	unsigned cinta_col;
-	Coordenada coordenada;
-	Orientation orientacion;
-	cinta_binaria cinta_entrada;
-	cinta_orientacion cinta_inicial;
+	unsigned num_colores;
+	std::vector<Ant*> vec_hormiga;
+	cinta_colores cinta_entrada;
 };
 
 Fichero leerFichero(std::ifstream& datos);
@@ -22,10 +21,13 @@ class Simulator {
 	public:
 	// Constructor
 		Simulator(const Fichero& datos);
+	
+	// Destructor
+		~Simulator();
 
 		// Getters
 		const Tape& get_tape() const {return cinta_;}
-		const Ant& get_ant() const {return hormiga_;}
+		const std::vector<Ant*>& get_hormigas() const { return hormigas_; }
 
 		// Simulación
 		void run();
@@ -33,7 +35,7 @@ class Simulator {
 
 	private: 
 		Tape cinta_;
-		Ant hormiga_;
+		std::vector<Ant*> hormigas_;
 		unsigned count_;
 };
 

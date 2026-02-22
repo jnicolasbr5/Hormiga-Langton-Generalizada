@@ -17,6 +17,9 @@ set(SOURCES
     src/tape.cpp
     src/simulator.cpp
     src/ant.cpp
+    src/ant_ddii.cpp
+    src/ant_didi.cpp
+    src/ant_idid.cpp
 )
 
 # Create executable

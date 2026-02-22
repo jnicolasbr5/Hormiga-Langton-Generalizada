@@ -1,7 +1,9 @@
-CMakeFiles/langton2.dir/src/simulator.cpp.o: \
- /home/usuario/Ayeda/practica2/src/simulator.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
- /usr/include/c++/14/bits/requires_hosted.h \
+CMakeFiles/langton2.dir/src/ant_didi.cpp.o: \
+ /home/usuario/Ayeda/practica2/src/ant_didi.cpp \
+ /usr/include/stdc-predef.h \
+ /home/usuario/Ayeda/practica2/include/ant_didi.hpp \
+ /home/usuario/Ayeda/practica2/include/ant.hpp \
+ /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -177,19 +179,9 @@ CMakeFiles/langton2.dir/src/simulator.cpp.o: \
  /usr/include/c++/14/bits/unicode-data.h \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/print \
- /usr/include/c++/14/sstream /usr/include/c++/14/bits/sstream.tcc \
- /home/usuario/Ayeda/practica2/include/tape.hpp \
  /usr/include/c++/14/vector /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc \
- /home/usuario/Ayeda/practica2/include/ant.hpp \
- /home/usuario/Ayeda/practica2/include/colours.hpp \
- /home/usuario/Ayeda/practica2/include/simulator.hpp \
- /usr/include/c++/14/fstream \
- /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc \
- /home/usuario/Ayeda/practica2/include/ant_ddii.hpp \
- /home/usuario/Ayeda/practica2/include/ant_didi.hpp \
- /home/usuario/Ayeda/practica2/include/ant_idid.hpp
+ /home/usuario/Ayeda/practica2/include/tape.hpp \
+ /home/usuario/Ayeda/practica2/include/colours.hpp

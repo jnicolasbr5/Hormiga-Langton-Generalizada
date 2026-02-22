@@ -153,6 +153,78 @@ src/ant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant.cpp.s
 .PHONY : src/ant.cpp.s
 
+src/ant_ddii.o: src/ant_ddii.cpp.o
+.PHONY : src/ant_ddii.o
+
+# target to build an object file
+src/ant_ddii.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_ddii.cpp.o
+.PHONY : src/ant_ddii.cpp.o
+
+src/ant_ddii.i: src/ant_ddii.cpp.i
+.PHONY : src/ant_ddii.i
+
+# target to preprocess a source file
+src/ant_ddii.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_ddii.cpp.i
+.PHONY : src/ant_ddii.cpp.i
+
+src/ant_ddii.s: src/ant_ddii.cpp.s
+.PHONY : src/ant_ddii.s
+
+# target to generate assembly for a file
+src/ant_ddii.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_ddii.cpp.s
+.PHONY : src/ant_ddii.cpp.s
+
+src/ant_didi.o: src/ant_didi.cpp.o
+.PHONY : src/ant_didi.o
+
+# target to build an object file
+src/ant_didi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_didi.cpp.o
+.PHONY : src/ant_didi.cpp.o
+
+src/ant_didi.i: src/ant_didi.cpp.i
+.PHONY : src/ant_didi.i
+
+# target to preprocess a source file
+src/ant_didi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_didi.cpp.i
+.PHONY : src/ant_didi.cpp.i
+
+src/ant_didi.s: src/ant_didi.cpp.s
+.PHONY : src/ant_didi.s
+
+# target to generate assembly for a file
+src/ant_didi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_didi.cpp.s
+.PHONY : src/ant_didi.cpp.s
+
+src/ant_idid.o: src/ant_idid.cpp.o
+.PHONY : src/ant_idid.o
+
+# target to build an object file
+src/ant_idid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_idid.cpp.o
+.PHONY : src/ant_idid.cpp.o
+
+src/ant_idid.i: src/ant_idid.cpp.i
+.PHONY : src/ant_idid.i
+
+# target to preprocess a source file
+src/ant_idid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_idid.cpp.i
+.PHONY : src/ant_idid.cpp.i
+
+src/ant_idid.s: src/ant_idid.cpp.s
+.PHONY : src/ant_idid.s
+
+# target to generate assembly for a file
+src/ant_idid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/src/ant_idid.cpp.s
+.PHONY : src/ant_idid.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -237,6 +309,15 @@ help:
 	@echo "... src/ant.o"
 	@echo "... src/ant.i"
 	@echo "... src/ant.s"
+	@echo "... src/ant_ddii.o"
+	@echo "... src/ant_ddii.i"
+	@echo "... src/ant_ddii.s"
+	@echo "... src/ant_didi.o"
+	@echo "... src/ant_didi.i"
+	@echo "... src/ant_didi.s"
+	@echo "... src/ant_idid.o"
+	@echo "... src/ant_idid.i"
+	@echo "... src/ant_idid.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -3,10 +3,10 @@
 // Grado en Ingeniería Informática
 // Asignatura: Algoritmos y Estructuras Avanzadas de Datos
 // Curso: 2º
-// Práctica 1: Hormiga de Langton
+// Práctica 2: Hormiga de Langton Generalizada
 // Autor: Juan Nicolás Becerra Rogatinscaia
 // Correo: alu0101743011@ull.edu.es
-// Fecha: 10/02/2026
+// Fecha: 24/02/2026
 
 
 #include <fstream>

@@ -180,4 +180,6 @@ CMakeFiles/langton2.dir/src/ant.cpp.o: \
  /usr/include/c++/14/vector /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/vector.tcc
+ /usr/include/c++/14/bits/vector.tcc \
+ /home/usuario/Ayeda/practica2/include/tape.hpp \
+ /home/usuario/Ayeda/practica2/include/colours.hpp

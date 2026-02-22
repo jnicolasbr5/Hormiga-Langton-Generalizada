@@ -3,23 +3,28 @@
 #include <iostream>
 #include <vector>
 
-typedef std::vector<std::vector<unsigned>> cinta_binaria;
+#include "ant.hpp"
+#include "colours.hpp"
+
+class Ant; 
+
+typedef std::vector<std::vector<Colours>> cinta_colores;
 
 class Tape {
 	public:
 		// Constructor
-		Tape(unsigned size, unsigned col);
-		Tape(unsigned size, unsigned col, cinta_binaria celdas);
+		Tape(unsigned size, unsigned col, unsigned colors, cinta_colores celdas);
 
 		// Getters y setters
 		unsigned get_size() const {return cinta_.size();}
 		unsigned get_col() const { return col_; }
-		const cinta_binaria& get_cinta() const {return cinta_;}
+		unsigned get_num_colors() const { return num_colors_; }
 
-		unsigned get_valor(unsigned i, unsigned j);
+
+		const cinta_colores& get_cinta() const {return cinta_;}
 
 		// Consultar celda
-		unsigned consultar_celda(unsigned i, unsigned j) const;
+		Colours consultar_celda(unsigned i, unsigned j) const;
 
 		// Cambiar celda
 		void modificar_celda(unsigned i, unsigned j);
@@ -27,11 +32,17 @@ class Tape {
 		// Comprobar posicion
 		bool posicion_correcta(int i, int j);
 
+		// Visualizacion
+		void mostrar_cinta(const std::vector<Ant*>& hormigas);
+
 	private:
 	// Blanco -> 0, Negro -> 1
-		cinta_binaria cinta_;
+		cinta_colores cinta_;
 		unsigned size_;
 		unsigned col_;
+		unsigned num_colors_;
 };
 
-std::ostream& operator<<(std::ostream& os, const Tape& cinta);
+Colours number_to_color(unsigned num);
+
+unsigned color_to_number(Colours color);

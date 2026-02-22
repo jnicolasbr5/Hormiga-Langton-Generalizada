@@ -4,7 +4,8 @@
 #include <print>
 #include <vector>
 
-typedef std::vector<std::vector<unsigned>> cinta_orientacion;
+#include "tape.hpp"
+#include "colours.hpp"
 
 enum Orientation {
 	izquierda,
@@ -22,34 +23,35 @@ class Ant {
 	public:
 	// Constructor
 		Ant() = default;
-		Ant(Coordenada coordenada, Orientation orientacion, cinta_orientacion cinta);
+		Ant(Coordenada coordenada, Orientation orientacion);
+
+	// Destructor
+		virtual ~Ant() {};
 
 		// Setters y getters
-		void set_posicion(unsigned i, unsigned j);
-		unsigned get_valor(unsigned i, unsigned j) const {return cinta_mov_[i][j];}
-
-		int get_size_cinta() const {return cinta_mov_.size();}
-		unsigned get_col() const { return cinta_mov_[0].size(); }
-
 		Coordenada get_posicion() const {return posicion_;}
 		Orientation get_orientacion() const { return orientacion_; }
+		char get_char_mov();
 		
-		unsigned orientacion_to_num() const;
 
 		// Métodos
 		void girar_izq();
 		void girar_der();
 		void avanzar();
 
+		// Modificacion
+		virtual void elegir_giro(Colours color) {}
+		virtual std::string get_tipo() {return "";}
+
 		void guardar_posicion(unsigned i, unsigned j);
 
-
-	private:
+	protected:
 		Coordenada posicion_;
 		Orientation orientacion_;
-		cinta_orientacion cinta_mov_;
 };
 
 Orientation num_to_orientacion(unsigned num);
+unsigned orientacion_to_num(Orientation orientacion);
 
 std::ostream& operator<<(std::ostream& os, const Ant& hormiga);
+ //((mov == ' ') ? mov : ' ') 

@@ -81,12 +81,12 @@ clean: CMakeFiles/langton2.dir/clean
 CMakeFiles/langton2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/langton2.dir/build.make CMakeFiles/langton2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/usuario/Ayeda/practica2/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target langton2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/usuario/Ayeda/practica2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target langton2"
 .PHONY : CMakeFiles/langton2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/langton2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Ayeda/practica2/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Ayeda/practica2/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/langton2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Ayeda/practica2/build/CMakeFiles 0
 .PHONY : CMakeFiles/langton2.dir/rule

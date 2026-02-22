@@ -185,5 +185,6 @@ CMakeFiles/langton2.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc \
- /home/usuario/Ayeda/practica2/include/simulator.hpp \
- /home/usuario/Ayeda/practica2/include/tape.hpp
+ /home/usuario/Ayeda/practica2/include/tape.hpp \
+ /home/usuario/Ayeda/practica2/include/colours.hpp \
+ /home/usuario/Ayeda/practica2/include/simulator.hpp

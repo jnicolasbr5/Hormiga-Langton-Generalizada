@@ -125,12 +125,57 @@ CMakeFiles/langton2.dir/src/ant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/langton2.dir/src/ant.cpp.s"
 	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Ayeda/practica2/src/ant.cpp -o CMakeFiles/langton2.dir/src/ant.cpp.s
 
+CMakeFiles/langton2.dir/src/ant_ddii.cpp.o: CMakeFiles/langton2.dir/flags.make
+CMakeFiles/langton2.dir/src/ant_ddii.cpp.o: /home/usuario/Ayeda/practica2/src/ant_ddii.cpp
+CMakeFiles/langton2.dir/src/ant_ddii.cpp.o: CMakeFiles/langton2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Ayeda/practica2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/langton2.dir/src/ant_ddii.cpp.o"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/langton2.dir/src/ant_ddii.cpp.o -MF CMakeFiles/langton2.dir/src/ant_ddii.cpp.o.d -o CMakeFiles/langton2.dir/src/ant_ddii.cpp.o -c /home/usuario/Ayeda/practica2/src/ant_ddii.cpp
+
+CMakeFiles/langton2.dir/src/ant_ddii.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/langton2.dir/src/ant_ddii.cpp.i"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Ayeda/practica2/src/ant_ddii.cpp > CMakeFiles/langton2.dir/src/ant_ddii.cpp.i
+
+CMakeFiles/langton2.dir/src/ant_ddii.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/langton2.dir/src/ant_ddii.cpp.s"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Ayeda/practica2/src/ant_ddii.cpp -o CMakeFiles/langton2.dir/src/ant_ddii.cpp.s
+
+CMakeFiles/langton2.dir/src/ant_didi.cpp.o: CMakeFiles/langton2.dir/flags.make
+CMakeFiles/langton2.dir/src/ant_didi.cpp.o: /home/usuario/Ayeda/practica2/src/ant_didi.cpp
+CMakeFiles/langton2.dir/src/ant_didi.cpp.o: CMakeFiles/langton2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Ayeda/practica2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/langton2.dir/src/ant_didi.cpp.o"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/langton2.dir/src/ant_didi.cpp.o -MF CMakeFiles/langton2.dir/src/ant_didi.cpp.o.d -o CMakeFiles/langton2.dir/src/ant_didi.cpp.o -c /home/usuario/Ayeda/practica2/src/ant_didi.cpp
+
+CMakeFiles/langton2.dir/src/ant_didi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/langton2.dir/src/ant_didi.cpp.i"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Ayeda/practica2/src/ant_didi.cpp > CMakeFiles/langton2.dir/src/ant_didi.cpp.i
+
+CMakeFiles/langton2.dir/src/ant_didi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/langton2.dir/src/ant_didi.cpp.s"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Ayeda/practica2/src/ant_didi.cpp -o CMakeFiles/langton2.dir/src/ant_didi.cpp.s
+
+CMakeFiles/langton2.dir/src/ant_idid.cpp.o: CMakeFiles/langton2.dir/flags.make
+CMakeFiles/langton2.dir/src/ant_idid.cpp.o: /home/usuario/Ayeda/practica2/src/ant_idid.cpp
+CMakeFiles/langton2.dir/src/ant_idid.cpp.o: CMakeFiles/langton2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/usuario/Ayeda/practica2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/langton2.dir/src/ant_idid.cpp.o"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/langton2.dir/src/ant_idid.cpp.o -MF CMakeFiles/langton2.dir/src/ant_idid.cpp.o.d -o CMakeFiles/langton2.dir/src/ant_idid.cpp.o -c /home/usuario/Ayeda/practica2/src/ant_idid.cpp
+
+CMakeFiles/langton2.dir/src/ant_idid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/langton2.dir/src/ant_idid.cpp.i"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/usuario/Ayeda/practica2/src/ant_idid.cpp > CMakeFiles/langton2.dir/src/ant_idid.cpp.i
+
+CMakeFiles/langton2.dir/src/ant_idid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/langton2.dir/src/ant_idid.cpp.s"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/usuario/Ayeda/practica2/src/ant_idid.cpp -o CMakeFiles/langton2.dir/src/ant_idid.cpp.s
+
 # Object files for target langton2
 langton2_OBJECTS = \
 "CMakeFiles/langton2.dir/src/main.cpp.o" \
 "CMakeFiles/langton2.dir/src/tape.cpp.o" \
 "CMakeFiles/langton2.dir/src/simulator.cpp.o" \
-"CMakeFiles/langton2.dir/src/ant.cpp.o"
+"CMakeFiles/langton2.dir/src/ant.cpp.o" \
+"CMakeFiles/langton2.dir/src/ant_ddii.cpp.o" \
+"CMakeFiles/langton2.dir/src/ant_didi.cpp.o" \
+"CMakeFiles/langton2.dir/src/ant_idid.cpp.o"
 
 # External object files for target langton2
 langton2_EXTERNAL_OBJECTS =
@@ -139,9 +184,12 @@ langton2: CMakeFiles/langton2.dir/src/main.cpp.o
 langton2: CMakeFiles/langton2.dir/src/tape.cpp.o
 langton2: CMakeFiles/langton2.dir/src/simulator.cpp.o
 langton2: CMakeFiles/langton2.dir/src/ant.cpp.o
+langton2: CMakeFiles/langton2.dir/src/ant_ddii.cpp.o
+langton2: CMakeFiles/langton2.dir/src/ant_didi.cpp.o
+langton2: CMakeFiles/langton2.dir/src/ant_idid.cpp.o
 langton2: CMakeFiles/langton2.dir/build.make
 langton2: CMakeFiles/langton2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/usuario/Ayeda/practica2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable langton2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/usuario/Ayeda/practica2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable langton2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/langton2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

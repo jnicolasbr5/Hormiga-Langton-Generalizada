@@ -1,21 +1,21 @@
 #include "ant.hpp"
 
-Ant::Ant(Coordenada coordenada, Orientation orientacion, cinta_orientacion cinta_inicial) 
-				: orientacion_(orientacion), posicion_(coordenada), cinta_mov_(cinta_inicial) {}
+Ant::Ant(Coordenada coordenada, Orientation orientacion) 
+				: orientacion_(orientacion), posicion_(coordenada) {}
 
-void Ant::set_posicion(unsigned i, unsigned j) {
-	cinta_mov_[i][j] = this->orientacion_to_num();
-}
 
-unsigned Ant::orientacion_to_num() const {
-	if (orientacion_ == Orientation::izquierda) {
-		return 0;
-	} else if (orientacion_ == Orientation::derecha) {
-		return 1;
-	}	else if (orientacion_ == Orientation::arriba) {
-		return 2;
-	}	else if (orientacion_ == Orientation::abajo) {
-		return 3;
+char Ant::get_char_mov() {
+	switch (orientacion_) {
+	case Orientation::izquierda:
+		return '<';
+	case Orientation::derecha:
+		return '>';
+	case Orientation::arriba:
+		return '^';
+	case Orientation::abajo:
+		return 'v';
+	default:
+		break;
 	}
 }
 
@@ -89,6 +89,22 @@ Orientation num_to_orientacion(unsigned num) {
 	}
 }
 
+
+unsigned orientacion_to_num(Orientation orientacion) {
+	switch (orientacion) {
+		case Orientation::izquierda:
+			return 0;
+		case Orientation::derecha:
+			return 1;
+		case Orientation::arriba:
+			return 2;
+		case Orientation::abajo:
+			return 3;
+	}
+}
+
+
+ /*
 std::ostream& operator<<(std::ostream& os, const Ant& hormiga) {
 	os << "-----VISUALIZACIÓN HORMIGA-----" << std::endl;
 	for (unsigned i = 0; i < hormiga.get_size_cinta(); i++) {
@@ -120,3 +136,4 @@ std::ostream& operator<<(std::ostream& os, const Ant& hormiga) {
 	}
 	return os;
 }
+*/

@@ -1,5 +1,6 @@
 CMakeFiles/langton2.dir/src/tape.cpp.o: \
  /home/usuario/Ayeda/practica2/src/tape.cpp /usr/include/stdc-predef.h \
+ /home/usuario/Ayeda/practica2/include/colors.h \
  /home/usuario/Ayeda/practica2/include/tape.hpp \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -180,4 +181,6 @@ CMakeFiles/langton2.dir/src/tape.cpp.o: \
  /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/vector.tcc
+ /usr/include/c++/14/bits/vector.tcc \
+ /home/usuario/Ayeda/practica2/include/ant.hpp /usr/include/c++/14/print \
+ /home/usuario/Ayeda/practica2/include/colours.hpp
