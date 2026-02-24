@@ -93,7 +93,7 @@ void Simulator::run() {
 
 			// Comprueba que la celda esté en la cinta
 			if (!cinta_.posicion_correcta(posicion.x, posicion.y)) {
-				std::println("La hormiga ha salido de la cinta.");
+				std::println("La hormiga {} ha salido de la cinta.", ant->get_tipo());
 				return;
 			}
 
